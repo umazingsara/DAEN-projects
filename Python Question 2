@@ -1,0 +1,15 @@
+class Solution:
+    def __init__(self):
+        self.str = ""    
+    
+    def getString(self):
+        self.str = input("Enter your string: ") 
+
+    
+    def printString(self):
+        print(self.str.upper())
+
+sol = Solution()
+
+sol.getString()
+sol.printString()
