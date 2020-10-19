@@ -1,0 +1,16 @@
+myCourses = c('BIO-101','BIO-102','BIO-103','BIO-104','BIO-105','BIO-106','BIO-107','BIO-108')
+
+# length
+length(myCourses)
+
+# 1, 2
+myCourses[1:2]
+
+# 3, 4
+myCourses[3:4]
+
+# sort
+sort(myCourses)
+
+# sort reverse
+sort(myCourses,decreasing = TRUE)
